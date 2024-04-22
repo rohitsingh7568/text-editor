@@ -1,0 +1,159 @@
+.bd {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 190px;
+    height: 90vh;
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    border-radius: 20%;
+    box-shadow: 0px 0px 11px 2px black;
+    
+
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 1%;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 3px 7px #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* text-shadow: 0 0 20px brown; */
+
+}
+
+.input {
+    display: inline-flex;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    width: 700px;
+    height: 200px;
+    background-color: azure;
+    color: black;
+    /* border: 2px solid red; */
+    font-size: 20px;
+    font-family: cursive;
+    opacity: 0.7;
+    border-radius: 20%;
+    border: none;
+    box-shadow: inset 0px 0px 11px 2px black;
+    outline: none;
+
+
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.LC {
+    position: absolute;
+    top: 330px;
+    left: 150px;
+    width: 120px;
+    height: 34px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(165, 67, 67);
+    box-shadow: 0px 0px 11px 2px black;
+    cursor: pointer;
+}
+.LC:hover{
+    background-color: #e630ac;
+}
+.UC {
+    position: absolute;
+    top: 330px;
+    left: 380px;
+    width: 120px;
+    height: 34px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(16, 124, 182);
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 2px black;
+    box-shadow: inset 0px 0px 11px 2px black;
+}
+.UC:hover{
+    background-color: #e630ac;
+}
+.Remove {
+    position: absolute;
+    top: 330px;
+    left: 590px;
+    width: 120px;
+    height: 34px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(165, 67, 67);
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 2px black;
+}
+.Remove:hover{
+    background-color: #e630ac;
+}
+.Copy {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    width: 120px;
+    height: 34px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(165, 67, 67);
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 2px black;
+}
+.Copy:hover{
+    background-color: #e630ac;
+}
+.Paste {
+    position: absolute;
+    top: 400px;
+    left: 380px;
+    width: 120px;
+    height: 34px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(165, 67, 67);
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 2px black;
+}
+.Paste:hover{
+    background-color: #e630ac;
+}
+.Duplicate {
+    position: absolute;
+    top: 400px;
+    left: 590px;
+    width: 120px;
+    height: 34px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(165, 67, 67);
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 2px black;
+}
+.Duplicate:hover{
+    background-color: #e630ac;
+}
+
+.theme {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    width: 120px;
+    height: 34px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    
+    box-shadow: 0px 0px 11px 2px black;
+    
+}
